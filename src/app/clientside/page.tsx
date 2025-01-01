@@ -10,7 +10,7 @@ interface Product {
     image: string
 }
 
-const page: React.FC = () => {
+const Page: React.FC = () => {
 
     const [product, setProduct] = useState<Product[]>([]);
     const [loading, setLoading] = useState<boolean>(true)
@@ -65,4 +65,4 @@ const page: React.FC = () => {
         // closed 
     )
 }
-export default page
+export default Page
